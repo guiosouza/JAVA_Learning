@@ -45,18 +45,20 @@ Aprendi que posso usar o método `toString()` para exibir os dados de uma maneir
 Na classe:
 
 ```sh
-	public String toString() {
-		return "AREA: "
-				+ area()
-				+ "\nPERIMETER: "
-				+ perimeter()
-				+ "\nDIAGONAL: "
-				+ diagonal();
-	}
+public String toString() {
+	return "AREA: "
+			+ area()
+			+ "\nPERIMETER: "
+			+ perimeter()
+			+ "\nDIAGONAL: "
+			+ diagonal();
+}
 ```
 
+No script que irá executar:
+
 ```sh
-		System.out.print(r1);
+System.out.print(r1);
 ```
 
 _For more examples and usage, please refer to the [Wiki][wiki]._
