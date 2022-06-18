@@ -1,6 +1,3 @@
-## APREDIZADO DE JAVA COM ORIENTAÇÃO A OBJETO
-> See you at the end of the code! :)
-
 # APREDIZADO DE JAVA COM ORIENTAÇÃO A OBJETO
 Repositório dedicado ao aprendizado de JAVA :)
 
