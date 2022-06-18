@@ -41,7 +41,6 @@ public class Bhaskara {
 		this.c = c;
 	}
 	
-	
 	public double getX1() {
 		return x1;
 	}

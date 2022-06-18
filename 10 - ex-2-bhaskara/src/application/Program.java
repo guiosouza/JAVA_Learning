@@ -68,8 +68,6 @@ public class Program {
 				System.out.print(equation3);
 				break;
 		}
-			
-		
 		
 		sc.close();		
 		
