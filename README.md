@@ -39,7 +39,25 @@ public class Triangle {
 
 ## 2) Usando String toString() para saída de dados
 
-A few motivating and useful examples of how your product can be used. Spice this up with code blocks and potentially more screenshots.
+Esse exercício muito parecido com o anterior [anterior](https://github.com/guiosouza/JAVA_Learning/tree/main/1%20-%20triangle-orientacao-objeto/src)
+Aprendi que posso usar o método `toString()` para exibir os dados de uma maneira eficaz. A classe instanciada não precisa chamar o método na hora da execução, basta apenas escrever o nome do objeto. Por exemplo:
+
+Na classe:
+
+```sh
+	public String toString() {
+		return "AREA: "
+				+ area()
+				+ "\nPERIMETER: "
+				+ perimeter()
+				+ "\nDIAGONAL: "
+				+ diagonal();
+	}
+```
+
+```sh
+		System.out.print(r1);
+```
 
 _For more examples and usage, please refer to the [Wiki][wiki]._
 
@@ -61,9 +79,6 @@ public class Triangle {
 ```
 
 ## 3) Usando métodos para manipular atributos da classe
-
-Exercício muito parecido com o anterior [anterior]([https://pages.github.com/](https://github.com/guiosouza/JAVA_Learning/tree/main/1%20-%20triangle-orientacao-objeto/src)
-    * CHANGE: Remove `setDefaultXYZ()`
 
 * 0.1.1
     * FIX: Crash when calling `baz()` (Thanks @GenerousContributorName!)
