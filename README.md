@@ -60,13 +60,11 @@ public class Triangle {
 }
 ```
 
-## Usando métodos para manipular atributos da classe
+## 3) Usando métodos para manipular atributos da classe
 
-* 0.2.1
-    * CHANGE: Update docs (module code remains unchanged)
-* 0.2.0
+Exercício muito parecido com o anterior [anterior]([https://pages.github.com/](https://github.com/guiosouza/JAVA_Learning/tree/main/1%20-%20triangle-orientacao-objeto/src)
     * CHANGE: Remove `setDefaultXYZ()`
-    * ADD: Add `init()`
+
 * 0.1.1
     * FIX: Crash when calling `baz()` (Thanks @GenerousContributorName!)
 * 0.1.0
