@@ -26,7 +26,7 @@ One to two paragraph statement about your product and what it does.
 
 ![](header.png)
 
-## Installation
+## Meu primeiro programa com orientação a objeto
 
 OS X & Linux:
 
@@ -40,7 +40,7 @@ Windows:
 edit autoexec.bat
 ```
 
-## Usage example
+## Usando String toString() para saída de dados
 
 A few motivating and useful examples of how your product can be used. Spice this up with code blocks and potentially more screenshots.
 
@@ -55,7 +55,7 @@ make install
 npm test
 ```
 
-## Release History
+## Usando métodos para manipular atributos da classe
 
 * 0.2.1
     * CHANGE: Update docs (module code remains unchanged)
