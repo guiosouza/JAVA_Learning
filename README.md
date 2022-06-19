@@ -102,4 +102,44 @@ Os métodos estáticos podem passar despercebidos, uma vez que, se instanciarmos
 
 ## 7) Passando mais de um parâmetro no método static
 
-A solução [deste exercício]()
+A solução [deste exercício](https://github.com/guiosouza/JAVA_Learning/tree/main/7%20-%20static-member-dolar/src) visa calcular o valor que será pago no final pelo usuário de acordo com o preço do dólar e quantos dólares serão comprados.
+
+Dou destaque aqui na solução que encontrei de usar dois parâmetros no método do cálculo. Como os dois valores serão usados como parâmetros e não preciso ficar criando atributos, aqui também um método estático é a melhor solução:
+
+```sh
+package entities;
+
+public class Dolar {
+	
+	public static double calculatorDolar(double value, double quantity) {
+		double valueRaw = value * quantity;
+		return valueRaw = valueRaw + (valueRaw * 0.06);
+	}
+
+}
+```
+## 8) Usando construtores e ecapsulamento
+
+Esse script é uma melhoria do [exercício 3](https://github.com/guiosouza/JAVA_Learning/tree/main/3%20-%20product-orientacao-objeto/src). Com o encapsulamento o acesso a variáveis que são perigosas (podem atrapalhar o funcionamento correto do script) fica restrito. Com os `getters` e `setters` eu posso até acessar as variáveis, porém sob determinada condição. Principais vantagens do encapsulamento e construtores:
+
+* Construtores:
+    * Obriga o objeto a ser criado com atributos preenchidos. O construtor é criado pelo:
+```sh
+NomeDaClasse(atributo1, atributo2, atributo3, ...) {
+	this.atributo1 = atributo1;
+	this.atributo2 = atributo2;
+	this.atributo3 = atributo3;
+}
+```
+*Lembrando que o 'this' somente é usado para referenciar o atributo da classe e não o parâmetro. Pode-se colocar os nomes dos parametros que quiser, aí nesse caso não precisaria usar o 'this'.*
+
+* Encapsulamento:
+    * Impede que valores sejam alterados de forma indiscriminada. Para "encapsularmos" uma classe, podemos deixar os seus atributos em modo `private` e dái para obtermos os valores em outras classes, vamos usar os métodos `get` e `set` que impõe certos limites se assim desejarmos. [Neste mesmo exercício aqui](https://github.com/guiosouza/JAVA_Learning/blob/main/8%20-%20product-using-constructor/src/entities/Product.java) repare que que o método `setQuantity` não existe porque já foi criado um método próprio para realizar essa operação :)
+
+
+## 9) Validação de por 'char' e método dentro de um construtor
+
+
+
+## 10) Equação do segundo grau com switch e ecapsulamento
+
