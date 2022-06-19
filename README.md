@@ -18,7 +18,6 @@ Segue abaixo a resolução de algumas situações que fiz usando a *programaçã
 9) Validação de tipo 'char' e método dentro de um construtor
 10) Equação do segundo grau com switch e ecapsulamento;
 
-![](header.png)
 
 ## 1) Meu primeiro programa com orientação a objeto
 
