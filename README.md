@@ -61,26 +61,17 @@ No script que irá executar:
 System.out.print(r1);
 ```
 
-_For more examples and usage, please refer to the [Wiki][wiki]._
-
-## Development setup
-
-Describe how to install all development dependencies and how to run an automated test-suite of some kind. Potentially do this for multiple platforms.
-
-```sh
-public class Triangle {
-	public double a;
-	public double b;
-	public double c;
-	
-	public double area() {
-		double p = (a + b + c) / 2.0;
-		return Math.sqrt(p * (p - a) * (p - b) * (p - c));
-	}
-}
-```
-
 ## 3) Usando métodos para manipular atributos da classe
+
+Aqui comecei a ter uma ideia de que certos atributos precisam de métodos para serem manipulados (dependendo). O operador de atribuição `+=` e `-=` são uma boa pedida. O exercício é basicamente para criar uma classe de produto onde altermos valores de quantidade e valor monetário total do estoque. Segue o diagrama que ajuda a criar a classe:
+
+<img
+  src ="https://github.com/guiosouza/JAVA_Learning/blob/main/repo%20images/product.png"
+/>
+
+
+
+## 4) Usando métodos para manipular atributos da classe
 
 * 0.1.1
     * FIX: Crash when calling `baz()` (Thanks @GenerousContributorName!)
@@ -118,9 +109,7 @@ Os códigos escritos levaram em consideração alguns padrões de organização 
 
 - Seperação dos scripts por pacotes corretos. Isso porque é mais adequado criar uma entidade para cada tipo execução.
 
-<img
-  src ="https://github.com/guiosouza/JAVA_Learning/blob/main/repo%20images/product.png"
-/>
+
 
 <img
   src ="https://github.com/guiosouza/JAVA_Learning/blob/main/repo%20images/rectangle.png"
