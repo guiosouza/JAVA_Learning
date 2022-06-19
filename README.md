@@ -15,7 +15,7 @@ Segue abaixo a resolução de algumas situações que fiz usando a *programaçã
 6) Métodos que não precisam de instância (static);
 7) Passando mais de um parâmetro no método static; 
 8) Usando construtores e ecapsulamento;
-9) Validação de por 'char' e método dentro de um construtor
+9) Validação de tipo 'char' e método dentro de um construtor
 10) Equação do segundo grau com switch e ecapsulamento;
 
 ![](header.png)
@@ -139,7 +139,28 @@ NomeDaClasse(atributo1, atributo2, atributo3, ...) {
 
 ## 9) Validação de por 'char' e método dentro de um construtor
 
+Neste [exemplo], usamos uma validação usando a posição de caractere `sc.next().charAt(0)`. Tentei usar por string com uma única letra, mas não funcionou. Outro destaque aqui é isso:
+
+```sh
+public Account(int accountNumber, String holder, double initialValue) {
+		this.accountNumber = accountNumber;
+		this.holder = holder;
+		deposit(initialValue);
+}
+```
+
+O método `deposit` foi criado logo abaixo:
+
+```sh
+public void deposit (double value) {
+	accountBalance = accountBalance + value;
+}
+```
+
+Assim quando a classe for instanciada ela já vai passar um valor para ser depositado :)
 
 
 ## 10) Equação do segundo grau com switch e ecapsulamento
+
+A solução aqui foi um pouco diferente e deu um certo trabalho. O script é simplesmente para resolver equações de segundo grau **completas** ou **incompletas**. Utilizei o `switch` tanta na [classe de entrada de dados](https://github.com/guiosouza/JAVA_Learning/blob/main/10%20-%20ex-2-bhaskara/src/application/Program.java) quanto na [classe que molde](https://github.com/guiosouza/JAVA_Learning/blob/main/10%20-%20ex-2-bhaskara/src/entities/Bhaskara.java) que faz as operações.
 
