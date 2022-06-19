@@ -7,16 +7,16 @@ Segue abaixo a resolução de algumas situações que fiz usando a *programaçã
 
 ## ÍNDICE
 
-- Meu primeiro programa com orientação a objeto;
-- Usando String toString() para saída de dados;
-- Usando métodos para manipular atributos da classe;
-- Usando um método dentro de outro; 
-- Condicionais dentro de um método; 
-- Métodos que não precisam de instância (static);
-- Passando mais de um parâmetro no método static; 
-- Usando construtores e ecapsulamento;
-- Validação de por 'char' e método dentro de um construtor
-- Equação do segundo grau com switch e ecapsulamento;
+1) Meu primeiro programa com orientação a objeto;
+2) Usando String toString() para saída de dados;
+3) Usando métodos para manipular atributos da classe;
+4) Usando um método dentro de outro; 
+5) Condicionais dentro de um método; 
+6) Métodos que não precisam de instância (static);
+7) Passando mais de um parâmetro no método static; 
+8) Usando construtores e ecapsulamento;
+9) Validação de por 'char' e método dentro de um construtor
+10) Equação do segundo grau com switch e ecapsulamento;
 
 ![](header.png)
 
@@ -63,7 +63,7 @@ System.out.print(r1);
 
 ## 3) Usando métodos para manipular atributos da classe
 
-Aqui comecei a ter uma ideia de que certos atributos precisam de métodos para serem manipulados (dependendo). O operador de atribuição `+=` e `-=` são uma boa pedida. O exercício é basicamente para criar uma classe de produto onde altermos valores de quantidade e valor monetário total do estoque. Segue o diagrama que ajuda a criar a classe:
+Aqui comecei a ter uma ideia de que certos atributos precisam de métodos para serem manipulados (dependendo). O operador de atribuição `+=` e `-=` são uma boa pedida. [O exercício](https://github.com/guiosouza/JAVA_Learning/tree/main/3%20-%20product-orientacao-objeto/src) é basicamente para criar uma classe de produto onde altermos valores de quantidade e valor monetário total do estoque. Segue o diagrama que ajuda a criar a classe:
 
 <img
   src ="https://github.com/guiosouza/JAVA_Learning/blob/main/repo%20images/product.png"
@@ -71,46 +71,35 @@ Aqui comecei a ter uma ideia de que certos atributos precisam de métodos para s
 
 
 
-## 4) Usando métodos para manipular atributos da classe
+## 4) Usando um método dentro de outro
 
-* 0.1.1
-    * FIX: Crash when calling `baz()` (Thanks @GenerousContributorName!)
-* 0.1.0
-    * The first proper release
-    * CHANGE: Rename `foo()` to `bar()`
-* 0.0.1
-    * Work in progress
+Problema que pede entrada de dados (nome, salário bruto, imposto). Depois ele pede um percentual para aumentar o salário líquido. Aí que entra a pegada desse exercício: para retornar esse valor, tive que usar o retorno do método do salário líquido (coisa que achei que não ia funcionar). Olhe o método:
 
-## Meta
+```sh
+public void increaseSalary(double percentage) {
+	grossSalary = grossSalary * percentage / 100 + netSalary();
+}
+```
+*Observação: não usei atribuição `*=` para não me confundir mais.*
 
-Your Name – [@YourTwitter](https://twitter.com/dbader_org) – YourEmail@example.com
+## 5) Condicionais dentro de um método
 
-Distributed under the XYZ license. See ``LICENSE`` for more information.
+A coisa mais legal que vi nesse script é sobre as possibilidades de uso dos métodos. Como eles são funcões, podem fazer de tudo, inclusive usar condicionais. Ficou muito elegante fazer esse "cálculo" ou processamento em outra classe que não fosse a de execução Program. Estamos tratando de um script para dar retorno se um aluno passou ou não, de acordo com 3 notas. E também quanto faltou para passar caso falhasse. Segue método falado:
 
-[https://github.com/yourname/github-link](https://github.com/dbader/)
+```sh
+public double missingPoints() {
+	if (finalGrade() < 60.0) {
+		return 60.0 - finalGrade(); // diferença
+	} else {
+		return 0.0;
+	}
+}
+```
 
-## Contributing
+## 6) Métodos que não precisam de instância (static);
 
-1. Fork it (<https://github.com/yourname/yourproject/fork>)
-2. Create your feature branch (`git checkout -b feature/fooBar`)
-3. Commit your changes (`git commit -am 'Add some fooBar'`)
-4. Push to the branch (`git push origin feature/fooBar`)
-5. Create a new Pull Request
+Os métodos estáticos podem passar despercebidos, uma vez que, se instanciarmos um objeto vários vezes com o código paracido, mesmo assim vai funcionar. A vantagem aqui é que ao usar tais métodos, não teremos de ficar criando instância e consequentemente vai diminuir o tamanho do código. A solução [aqui](https://github.com/guiosouza/JAVA_Learning/tree/main/6%20-%20static-member-test/src) é somente para calcular circumferência, volume e PI de um círculo.
 
-<!-- Markdown link & img dfn's -->
-[npm-image]: https://img.shields.io/npm/v/datadog-metrics.svg?style=flat-square
-[npm-url]: https://npmjs.org/package/datadog-metrics
-[npm-downloads]: https://img.shields.io/npm/dm/datadog-metrics.svg?style=flat-square
-[travis-image]: https://img.shields.io/travis/dbader/node-datadog-metrics/master.svg?style=flat-square
-[travis-url]: https://travis-ci.org/dbader/node-datadog-metrics
-[wiki]: https://github.com/yourname/yourproject/wiki
+## 7) Passando mais de um parâmetro no método static
 
-Os códigos escritos levaram em consideração alguns padrões de organização como por exemplo:
-
-- Seperação dos scripts por pacotes corretos. Isso porque é mais adequado criar uma entidade para cada tipo execução.
-
-
-
-<img
-  src ="https://github.com/guiosouza/JAVA_Learning/blob/main/repo%20images/rectangle.png"
-/>
+A solução [deste exercício]()
