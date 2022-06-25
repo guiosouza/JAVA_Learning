@@ -166,6 +166,6 @@ Assim quando a classe for instanciada ela já vai passar um valor para ser depos
 
 A solução aqui foi um pouco diferente e deu um certo trabalho. O script é simplesmente para resolver equações de segundo grau **completas** ou **incompletas**. Utilizei o `switch` tanta na [classe de entrada de dados](https://github.com/guiosouza/JAVA_Learning/blob/main/1%20-%20Construtores%20e%20sobrecarga/10%20-%20ex-2-bhaskara/src/entities/Bhaskara.java) que faz as operações.
 
-## 2.1 Aprendendo sobre Arrays
+## 2.1 Aprendendo sobre arrays
 
 Algoritmo simples sobre vetores. Foi criado um vetor com "n" números (valor de tamanho a ser decidido pelo usuário) e depois ele foi preenchido com um loop `for`. Acessamos também os valores usando outro loop `for` que pegou o valor de cada índice, somou e adicionou a uma variável que no final fez uma divisão para achar uma média.
