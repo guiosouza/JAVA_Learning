@@ -25,6 +25,8 @@ Segue abaixo a resolução de algumas situações que fiz usando a *programaçã
 	* 2.2 Preenchendo array com objetos ([código](https://github.com/guiosouza/JAVA_Learning/tree/main/2%20-%20Arrays%20e%20listas/2%20-%20arrays-ex1/src));
 	* 2.3 Criando um array com objetos e mostrando em ordem ([código](https://github.com/guiosouza/JAVA_Learning/tree/main/2%20-%20Arrays%20e%20listas/3%20-%20rent-using-arrays/src));
 	* 2.4 Laço for each ([código](https://github.com/guiosouza/JAVA_Learning/blob/main/2%20-%20Arrays%20e%20listas/4%20-%20for-each/src/application/Program.java));
+	* 2.5 Listas ([código](https://github.com/guiosouza/JAVA_Learning/edit/main/2%20-%20Arrays%20e%20listas/5%20-%20Lists/src/application/Program.java));
+	* 2.6 Preenchendo uma lista com objetos instanciados ([código](https://github.com/guiosouza/JAVA_Learning/tree/main/2%20-%20Arrays%20e%20listas/6%20-%20Lists-ex1/src));
 
 ## 1.1 Meu primeiro programa com orientação a objeto
 
@@ -259,3 +261,15 @@ public class Program {
 		// - 3 Instância = classe que implementa a interface será ArrayList<>();
 		List<String> list = new ArrayList<>();
 ```
+No [código](https://github.com/guiosouza/JAVA_Learning/edit/main/2%20-%20Arrays%20e%20listas/5%20-%20Lists/src/application/Program.java) eu fiz alguns testes:
+
+- Adicionar itens na lista
+- Adicionando em determinada posição
+- Imprimindo a lista com `for each`
+- Removendo da lista com certas condições
+- Fazendo buscas de índice
+- Fazendo buscas com o filtro
+
+Dá uma olhada se quiser, porque coloquei comentários indicando no [código](https://github.com/guiosouza/JAVA_Learning/edit/main/2%20-%20Arrays%20e%20listas/5%20-%20Lists/src/application/Program.java)
+
+## 2.6 Listas
