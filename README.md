@@ -216,6 +216,6 @@ System.out.print("Average price is: " + average);
 
 O mais desafiador desse algoritmo era criar um modo de percorrer o array de objetos e mostrar em ordem crescente. Para isso, na hora que o loop que preenche o array fosse criado, ele precisaria já receber o número da posição no índice. Assim, na hora de percorrer o array, bastava mandar imprimir aqueles que não fossem null.
 
-Da uma olhada [aqui](https://github.com/guiosouza/JAVA_Learning/blob/main/2%20-%20Arrays%20e%20listas/3%20-%20rent-using-arrays/src/application/Program.java) :)
+Dá uma olhada [aqui](https://github.com/guiosouza/JAVA_Learning/blob/main/2%20-%20Arrays%20e%20listas/3%20-%20rent-using-arrays/src/application/Program.java) :)
 
 ## 2.4 
