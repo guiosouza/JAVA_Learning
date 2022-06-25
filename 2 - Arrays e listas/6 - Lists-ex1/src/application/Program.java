@@ -14,13 +14,13 @@ public class Program {
 
 		Scanner sc = new Scanner(System.in);
 		
-		// criando lista do tipo da classe Eployee para poder receber todos dados
+		// 1 - criando uma lista do tipo da classe Employee para poder receber todos dados
 		List<Employee> list = new ArrayList<>();
 		
 		System.out.print("How many employees will be registered? ");
 		int N = sc.nextInt();
 		
-		// for para adicionar na lista
+		// 2 - for para adicionar na lista
 		for (int i = 0; i < N; i++) {
 			System.out.println("Employee #" + (i + 1) + ":");
 			System.out.print("Id: ");
@@ -38,6 +38,9 @@ public class Program {
 			System.out.println();
 		}
 		
+		
+		// 3 - verifica o id
+		// foi criada uma função para verificação
 		System.out.print("Enter the employee id that will have salary increase: ");
 		int idSalary = sc.nextInt();
 		sc.nextLine();
@@ -69,8 +72,9 @@ public class Program {
 		sc.close();
 	}
 	/* ----------------------------------------------------------- 
-	* vai receber uma lista de funcionários e um id
-	* o papel desse método é dizer qual é a posição do id na lista
+	* - vai receber uma lista de funcionários e um id
+	* - o papel desse método é dizer qual é a posição do id na lista
+	* - 
 	*/
 	public static Integer position(List<Employee> list, int id) {
 		for (int i = 0; i < list.size(); i ++) {
