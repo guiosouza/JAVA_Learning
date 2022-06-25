@@ -10,10 +10,14 @@ public class Program {
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in);
-		// não aceita tipo primitivo, por isso o integer;
+		// não aceita tipo primitivo
 		// arraylist é melhor para implementar a interface List;
+		// - 1 List (declaração)
+		// - 2 Tipo da lista <String>
+		// - 3 Instância = classe que implementa a interface será ArrayList<>();
 		List<String> list = new ArrayList<>();
 		
+		// 1 - ADICIONANDO ITENS NA LISTA
 		list.add("Phlipe");
 		list.add("Guilherme");
 		list.add("Ana");
@@ -21,24 +25,27 @@ public class Program {
 		list.add("Gustavo");
 		list.add("Everaldo");
 		
-		// adicionando na posição 2;
+		// 2 - ADICIONANDO EM DETERMINANDA POSIÇÃO (NA 2);
 		list.add(2, "Samuel");
 		System.out.println("O tamanho da lista é de " + "[" + list.size() + "]" + " lugares.");	
 		
+		// 3 - IMPRIMINDO A LISTA COM FOR EACH;
 		for (String lista : list) {
 			System.out.println(lista);
 		}
 		System.out.println("--------------------------------------------------");
 		
-		// remove da lista tal que: se caractere array 0 é a letra "E";
+		// 4 - REMOVENDO DA LISTA: SE O 'CHAR' DA PRIMEIRA LETRA DA STRING FOR 'E', SERÁ REMOVIDO DA LISTA;
 		list.removeIf(lista -> lista.charAt(0) == 'E');
 		
+		// 5 - IMPRIMINDO LISTA NOVAMENTE
 		for (String lista : list) {
 			System.out.println(lista);
 		}
 		
 		System.out.println("--------------------------------------------------");
 		
+		// 6 - MOSTRANDO BUSCAS NA LISTA
 		System.out.println("Índice de Guilherme: " + list.indexOf("Guilherme"));
 		System.out.println("Índice de Gus: " + list.indexOf("Gus")); // - 1 não tem	
 		System.out.println("Índice de Gus: " + list.indexOf("Gus")); // - 1 não tem
