@@ -15,6 +15,7 @@ public class Program {
 		System.out.print("How many rooms will be rented? ");
 		int n = sc.nextInt();
 		
+		// Percorrer vetor
 		for (int i = 1; i <= n; i++) {
 			
 			System.out.println();
@@ -27,11 +28,15 @@ public class Program {
 			System.out.print("Room: ");
 			int room = sc.nextInt();
 			
+			// O índice do quarto é informado e recebe o objeto também
 			vect[room] = new Room(name, email);
 		}
 		
 		System.out.println();
 		System.out.println("Busy rooms:");
+		
+		// Percorre todos os quartos, os que não forem null, são imprimidos
+		// Isso serve para que seja exibido em ordem crescente
 		for (int i = 0; i < 10; i++) {
 			if (vect[i] != null) {
 				System.out.println(i + ": " + vect[i]);
