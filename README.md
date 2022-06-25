@@ -242,3 +242,20 @@ public class Program {
 ```
 
 ## 2.5 Listas
+
+A estrutura de dados de listas, achei mais impressionantes que os arrays.
+
+### Como funciona as listas:
+
+Em comparação aos arrays, a principal vantagem da lista é a sua flexibilidade; na lista temos a facilitação de inserção e deleções dos itens nos índices. A sua instânciação ou declação se dá pelo `List`. Lista é uma interface e não classe, por isso preciso de uma classe que implementa ela. Verei mais para frente o assunto de interface. Vamos a um passo a passo simples:
+
+```sh
+public class Program {
+
+		// não aceita tipo primitivo
+		// arraylist é melhor para implementar a interface List;
+		// - 1 List (declaração)
+		// - 2 Tipo da lista <String>
+		// - 3 Instância = classe que implementa a interface será ArrayList<>();
+		List<String> list = new ArrayList<>();
+```
