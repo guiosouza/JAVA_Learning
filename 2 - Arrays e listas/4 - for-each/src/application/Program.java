@@ -10,7 +10,7 @@ public class Program {
 		
 		String[] vect = new String[] {"Guilherme", "João", "Maria"};
 		
-		// dentro da condição: tipo, apelido : nome da coleação;
+		// dentro da condição: tipo, apelido : nome da coleção;
 		for (String obj : vect) {
 			System.out.println(obj);
 		}
