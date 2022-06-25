@@ -36,6 +36,7 @@ public class Program {
 		System.out.println("--------------------------------------------------");
 		
 		// 4 - REMOVENDO DA LISTA: SE O 'CHAR' DA PRIMEIRA LETRA DA STRING FOR 'E', SERÁ REMOVIDO DA LISTA;
+		// Função lambda. Pega um valor 'lista' que é string,e e me retorna se 'char' na posição 0 é true;
 		list.removeIf(lista -> lista.charAt(0) == 'E');
 		
 		// 5 - IMPRIMINDO LISTA NOVAMENTE
@@ -52,17 +53,20 @@ public class Program {
 		
 		System.out.println("--------------------------------------------------");
 		
-		/* filtrando a lista anterior;
+		/* 7 - FILTRANDO COM STREAM
 		 * O que foi feito abaixo:
 		 *  1 - convertemos para stream();
-		 *  2 - fazemos a operação lambda de filtro;]
+		 *  2 - fazemos a operação lambda de filtro;
 		 *  3 - Depois voltar para o formato de lista;
+		 *  4 - Lembrando que result é uma nova lista que recebe o filtro da lista 'list'
 		 */
 		List<String> result = list.stream().filter(lista -> lista.charAt(0) == 'G').collect(Collectors.toList());
 		for (String lista : result) {
 			System.out.println(lista);
 		}
 		
+		// 8 - ENCONTRAR UM ELEMENTO DA LISTA QUE ATENDA UM CERTO PREDICADO
+		// Queremos encontrar o primeiro elemento com a letra 'G'
 		System.out.println("--------------------------------------------------");
 		// se não existir ele vai retornar null;
 		String name = list.stream().filter(lista -> lista.charAt(0) == 'G').findFirst().orElse(null);
