@@ -24,7 +24,7 @@ Segue abaixo a resolução de algumas situações que fiz usando a *programaçã
 	* 2.1 Aprendendo sobre arrays ([código](https://github.com/guiosouza/JAVA_Learning/tree/main/2%20-%20Arrays%20e%20listas/1%20-%20arrays-test/src/application)); 
 	* 2.2 Preenchendo array com objetos ([código](https://github.com/guiosouza/JAVA_Learning/tree/main/2%20-%20Arrays%20e%20listas/2%20-%20arrays-ex1/src));
 	* 2.3 Criando um array com objetos e mostrando em ordem ([código](https://github.com/guiosouza/JAVA_Learning/tree/main/2%20-%20Arrays%20e%20listas/3%20-%20rent-using-arrays/src));
-	* 
+	* 2.4 Laço for each ([código](https://github.com/guiosouza/JAVA_Learning/blob/main/2%20-%20Arrays%20e%20listas/4%20-%20for-each/src/application/Program.java));
 
 ## 1.1 Meu primeiro programa com orientação a objeto
 
@@ -218,4 +218,27 @@ O mais desafiador desse algoritmo era criar um modo de percorrer o array de obje
 
 Dá uma olhada [aqui](https://github.com/guiosouza/JAVA_Learning/blob/main/2%20-%20Arrays%20e%20listas/3%20-%20rent-using-arrays/src/application/Program.java) :)
 
-## 2.4 
+## 2.4 2.4 Laço for each
+
+O laço `for each` não é bom de ser utilizado para preencher arrays como fiz nos algoritmos do exercício [2.2](https://github.com/guiosouza/JAVA_Learning/tree/main/2%20-%20Arrays%20e%20listas/2%20-%20arrays-ex1/src) ou [2.3](https://github.com/guiosouza/JAVA_Learning/tree/main/2%20-%20Arrays%20e%20listas/3%20-%20rent-using-arrays/src), porém ele támbem serve para percorrer um array. Nesse exemplo eu usei um array com 3 strings. O laço `for each` segue a sixtaxe depois dentro da condição: tipo da variável, apelido e nome da coleção do array. Veja: 
+
+```sh
+public class Program {
+	
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		String[] vect = new String[] {"Guilherme", "João", "Maria"};
+		
+		// dentro da condição: tipo, apelido : nome da coleção;
+		for (String obj : vect) {
+			System.out.println(obj);
+		}
+		
+		sc.close();
+	}
+}
+```
+
+## 2.5 Listas
