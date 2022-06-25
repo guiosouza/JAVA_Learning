@@ -12,20 +12,20 @@ public class Program {
 		Scanner sc = new Scanner(System.in);
 		Room[] vect = new Room[10];
 		
-		System.out.print("How many rooms will be rented? ");
+		System.out.print("Quantos quartos serão alugados ");
 		int n = sc.nextInt();
 		
 		// Percorrer vetor
 		for (int i = 1; i <= n; i++) {
 			
 			System.out.println();
-			System.out.println("Rent #" + i + ":");
-			System.out.print("Name: ");
+			System.out.println("Locação #" + i + ":");
+			System.out.print("Nome: ");
 			sc.nextLine();		
 			String name = sc.nextLine();
 			System.out.print("Email: ");
 			String email = sc.nextLine();
-			System.out.print("Room: ");
+			System.out.print("Quarto: ");
 			int room = sc.nextInt();
 			
 			// O índice do quarto é informado e recebe o objeto também
@@ -33,7 +33,7 @@ public class Program {
 		}
 		
 		System.out.println();
-		System.out.println("Busy rooms:");
+		System.out.println("Quarto ocupados:");
 		
 		// Percorre todos os quartos, os que não forem null, são imprimidos
 		// Isso serve para que seja exibido em ordem crescente
