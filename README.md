@@ -1,7 +1,7 @@
 # APRENDIZADO DE JAVA COM ORIENTAÇÃO A OBJETO
 Repositório dedicado ao aprendizado de JAVA :)
 
-Segue abaixo a resolução de algumas situações que fiz usando a *programação orientada a objetos* em JAVA.
+Segue abaixo a resolução de algumas situações que fiz usando a *programação orientada a objetos* em JAVA. Também deixo explicações sobre tópicos importantes não só relacionada a programação orientada a objeto, mas a lógica de programação no geral.
 
 > See you at the end of the code! :)
 
@@ -21,7 +21,7 @@ Segue abaixo a resolução de algumas situações que fiz usando a *programaçã
 	* 1.10 Equação do segundo grau com `switch` e ecapsulamento ([código](https://github.com/guiosouza/JAVA_Learning/tree/main/1%20-%20Construtores%20e%20sobrecarga/10%20-%20ex-2-bhaskara/src));
 
 * _2 ARRAYS E LISTAS_
-	* 2.1 Aprendendo sobre Arrays [código](https://github.com/guiosouza/JAVA_Learning/tree/main/2%20-%20Arrays%20e%20listas/1%20-%20arrays-test/src/application) 
+	* 2.1 Aprendendo sobre Arrays ([código](https://github.com/guiosouza/JAVA_Learning/tree/main/2%20-%20Arrays%20e%20listas/1%20-%20arrays-test/src/application)) 
 
 ## 1.1 Meu primeiro programa com orientação a objeto
 
