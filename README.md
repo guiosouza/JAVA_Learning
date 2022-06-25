@@ -21,8 +21,8 @@ Segue abaixo a resolução de algumas situações que fiz usando a *programaçã
 	* 1.10 Equação do segundo grau com `switch` e ecapsulamento ([código](https://github.com/guiosouza/JAVA_Learning/tree/main/1%20-%20Construtores%20e%20sobrecarga/10%20-%20ex-2-bhaskara/src));
 
 * _2 ARRAYS E LISTAS_
-	* 2.1 Aprendendo sobre Arrays ([código](https://github.com/guiosouza/JAVA_Learning/tree/main/2%20-%20Arrays%20e%20listas/1%20-%20arrays-test/src/application)) 
-
+	* 2.1 Aprendendo sobre arrays ([código](https://github.com/guiosouza/JAVA_Learning/tree/main/2%20-%20Arrays%20e%20listas/1%20-%20arrays-test/src/application)) 
+	* 2.2 Preenchendo array com objetos ([código](https://github.com/guiosouza/JAVA_Learning/tree/main/2%20-%20Arrays%20e%20listas/2%20-%20arrays-ex1/src)
 ## 1.1 Meu primeiro programa com orientação a objeto
 
 Iniciando na programação orientada a objeto, vi a utilidade de métodos que podem ser reaproveitados depois. Exemplo desse [código](https://github.com/guiosouza/JAVA_Learning/tree/main/1%20-%20Construtores%20e%20sobrecarga/1%20-%20triangle-orientacao-objeto/src):
@@ -169,3 +169,43 @@ A solução aqui foi um pouco diferente e deu um certo trabalho. O script é sim
 ## 2.1 Aprendendo sobre arrays
 
 Algoritmo simples sobre vetores. Foi criado um vetor com "n" números (valor de tamanho a ser decidido pelo usuário) e depois ele foi preenchido com um loop `for`. Acessamos também os valores usando outro loop `for` que pegou o valor de cada índice, somou e adicionou a uma variável que no final fez uma divisão para achar uma média.
+
+## 2.2 Preenchendo array com objetos
+
+Com o conhecimento já adquirido de orientação objeto, esse algoritmo, apresenta uma maneira de preenchermos um vetor com objetos. Veja o passo a passo:
+
+_1. Um array é criado com "n" elementos (será definido pelo usuário), recebendo variáveis do tipo Product (uma classe já criada para receber atributos e métodos):_
+
+```sh
+System.out.print("How many products do you wanna include? ");
+		int n = sc.nextInt();
+		
+		Products[] vect = new Products[n];
+```
+
+_2. Aqui vemos a mágica. Um loop é criado para percorrer um array e ir adicionando os objetos._
+
+```sh
+for (int i = 0; i < vect.length; i++) {
+	sc.nextLine(); // consumir a quebra de linha que ficou pendente;
+	System.out.print("Enter the name of the product " + (i + 1) + ": ");
+	String name = sc.nextLine();
+	System.out.print("Enter the price of the product " + (i + 1) + ": ");
+	double price = sc.nextDouble();
+	vect[i] = new Products(name, price);
+}
+```
+
+_3. Um loop para percorrer o vetor de objetos criado, pegar o preço pelo método de encapsulamento getPrice() e ir somando esses valores. No final, a soma dos preços é somada e dividida pelo tamanho do vetor (pode usar .length ou pelo tamanho de "n"):_
+
+```sh
+double sum = 0;
+		
+for (int i = 0; i < vect.length; i++) {
+	sum = sum + vect[i].getPrice();
+}
+
+double average = sum / vect.length;
+
+System.out.print("Average price is: " + average);
+```
