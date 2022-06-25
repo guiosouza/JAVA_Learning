@@ -274,3 +274,11 @@ Dá uma olhada se quiser, porque coloquei comentários indicando no [código](ht
 
 ## 2.6 Preenchendo uma lista com objetos
 
+[Exercício](https://github.com/guiosouza/JAVA_Learning/edit/main/2%20-%20Arrays%20e%20listas/6%20-%20Lists-ex1/src/application/Program.java) complexo que possui várias maneiras de ser solucionado. O mais difícil aqui é fazer a validação do id digitado e percorrer a lista. Observe que a função `position(List<Employee> list, int id)` é que faz a validação do id. Ela faz assim:
+	
+1. Percorre a lista recebida como argumento;
+2. Se o id do elemento da lista na posição atual (posição `i` feita pelo `get(i)` e id do item na posição pelo encapsulamento do `.getId()`) for igual ao id passado como argumento também;
+3. Retorna o valor de `i`;
+
+
+
