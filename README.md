@@ -218,7 +218,7 @@ O mais desafiador desse algoritmo era criar um modo de percorrer o array de obje
 
 Dá uma olhada [aqui](https://github.com/guiosouza/JAVA_Learning/blob/main/2%20-%20Arrays%20e%20listas/3%20-%20rent-using-arrays/src/application/Program.java) :)
 
-## 2.4 2.4 Laço for each
+## 2.4 Laço for each
 
 O laço `for each` não é bom de ser utilizado para preencher arrays como fiz nos algoritmos do exercício [2.2](https://github.com/guiosouza/JAVA_Learning/tree/main/2%20-%20Arrays%20e%20listas/2%20-%20arrays-ex1/src) ou [2.3](https://github.com/guiosouza/JAVA_Learning/tree/main/2%20-%20Arrays%20e%20listas/3%20-%20rent-using-arrays/src), porém ele támbem serve para percorrer um array. Nesse exemplo eu usei um array com 3 strings. O laço `for each` segue a sixtaxe depois dentro da condição: tipo da variável, apelido e nome da coleção do array. Veja: 
 
