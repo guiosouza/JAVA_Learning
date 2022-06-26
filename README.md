@@ -27,6 +27,7 @@ Segue abaixo a resolução de algumas situações que fiz usando a *programaçã
 	* 2.4 Laço for each ([código](https://github.com/guiosouza/JAVA_Learning/blob/main/2%20-%20Arrays%20e%20listas/4%20-%20for-each/src/application/Program.java));
 	* 2.5 Listas ([código](https://github.com/guiosouza/JAVA_Learning/edit/main/2%20-%20Arrays%20e%20listas/5%20-%20Lists/src/application/Program.java));
 	* 2.6 Preenchendo uma lista com objetos ([código](https://github.com/guiosouza/JAVA_Learning/tree/main/2%20-%20Arrays%20e%20listas/6%20-%20Lists-ex1/src));
+	* 2.7 
 
 ## 1.1 Meu primeiro programa com orientação a objeto
 
@@ -277,8 +278,10 @@ Dá uma olhada se quiser, porque coloquei comentários indicando no [código](ht
 [Exercício](https://github.com/guiosouza/JAVA_Learning/edit/main/2%20-%20Arrays%20e%20listas/6%20-%20Lists-ex1/src/application/Program.java) complexo que possui várias maneiras de ser solucionado. O mais difícil aqui é fazer a validação do id digitado e percorrer a lista. Observe que a função `position(List<Employee> list, int id)` é que faz a validação do id. Ela faz assim:
 	
 1. Percorre a lista recebida como argumento;
-2. Se o id do elemento da lista na posição atual (posição `i` feita pelo `get(i)` e id do item na posição pelo encapsulamento do `.getId()`) for igual ao id passado como argumento também;
+2. Se o id do elemento da lista na posição atual (posição `i` feita pelo `get(i)` valor do id do item na posição pelo encapsulamento do `.getId()`) for igual ao id passado como argumento também;
 3. Retorna o valor de `i`;
+4. Do contrário retorna null;
 
+Com base na função acima vamos ver se o ID existe para inserirmos a porcentagem de aumento ou se teremos um retorno falando que o ID não existe. No final é usado um `for each` para percorrer a lista e imprimir.
 
-
+## 2.7 Preenchendo uma lista com objetos
