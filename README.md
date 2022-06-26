@@ -28,7 +28,7 @@ Segue abaixo a resolução de algumas situações que fiz usando a *programaçã
 	* 2.5 Listas ([código](https://github.com/guiosouza/JAVA_Learning/edit/main/2%20-%20Arrays%20e%20listas/5%20-%20Lists/src/application/Program.java));
 	* 2.6 Preenchendo uma lista com objetos ([código](https://github.com/guiosouza/JAVA_Learning/tree/main/2%20-%20Arrays%20e%20listas/6%20-%20Lists-ex1/src));
 	* 2.7 Introdução a matrizes ([código](https://github.com/guiosouza/JAVA_Learning/blob/main/2%20-%20Arrays%20e%20listas/7%20-%20matriz-ex2/src/application/Program.java));
-	* 2.8 Exercitando a busca de valores na matriz [código](https://github.com/guiosouza/JAVA_Learning/blob/main/2%20-%20Arrays%20e%20listas/8%20-%20matriz-part2/src/application/Program.java);
+	* 2.8 Exercitando a busca de valores na matriz ([código](https://github.com/guiosouza/JAVA_Learning/blob/main/2%20-%20Arrays%20e%20listas/8%20-%20matriz-part2/src/application/Program.java));
 
 ## 1.1 Meu primeiro programa com orientação a objeto
 
