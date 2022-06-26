@@ -83,7 +83,6 @@ public class Program {
 			/* ----------------------------------------------------------- 
 			* list.get() - pega um elemento na posição
 			* .getId(i) - pega o id de list da classe Employee (até arreia essa POO)
-			* 
 			*/
 			if (list.get(i).getId() == id) {
 				return i;
