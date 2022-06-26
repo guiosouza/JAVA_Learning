@@ -28,6 +28,7 @@ Segue abaixo a resolução de algumas situações que fiz usando a *programaçã
 	* 2.5 Listas ([código](https://github.com/guiosouza/JAVA_Learning/edit/main/2%20-%20Arrays%20e%20listas/5%20-%20Lists/src/application/Program.java));
 	* 2.6 Preenchendo uma lista com objetos ([código](https://github.com/guiosouza/JAVA_Learning/tree/main/2%20-%20Arrays%20e%20listas/6%20-%20Lists-ex1/src));
 	* 2.7 Introdução a matrizes ([código](https://github.com/guiosouza/JAVA_Learning/blob/main/2%20-%20Arrays%20e%20listas/7%20-%20matriz-ex2/src/application/Program.java));
+	* 2.8 Exercitando a busca de valores na matriz [código](https://github.com/guiosouza/JAVA_Learning/blob/main/2%20-%20Arrays%20e%20listas/8%20-%20matriz-part2/src/application/Program.java);
 
 ## 1.1 Meu primeiro programa com orientação a objeto
 
@@ -290,5 +291,25 @@ O assunto de matriz ficou mais fácil devido a ter tido o contato anterior com a
 
 Eu posso percorrer uma matriz usando dois `for` e as variáveis que uso para percorrer posso colocar como condição enquanto ela for menor que o tamanho do array, ou usar a propriedade `matriz.length`. Só um detalhe: ao usar `.length` cuidado com o segundo loop que deve percorrer as colunas do `length` e portanto deve ser por exemplo `matriz[i].length` onde no caso o `i` seria a posição atual da linha.
 
-## 2.8 ntrodução a matrizes 
+Na criação da matriz, instanciamos ela com igual o array, só que aqui temos dois valores para preencher. Veja o exemplo:
 
+```sh
+Scanner sc = new Scanner(System.in);
+
+// ENTRADA DE DADOS
+System.out.print("Qual será a quantidade de colunas e linhas da matriz? ");
+int n = sc.nextInt();
+
+/* INSTANCIANDO MATRIA NA MEMÓRIA	
+ * 1 - tipo das variáveis
+ * 2 - duas chaves para mostrar que tem duas dimensões
+ * 3 - colocar nas chaves o tamanho que será a matriz
+ */
+int[][] mat = new int[n][n];
+```
+
+## 2.8 Exercitando a busca de valores na matriz
+
+O intuito desse script foi de procurar algumas posições de valores nos vetores. Veja como os `if` dentro `for` são usados para procurar valores, vez alterando apenas a linha, vez alterando apenas a coluna.
+
+O exercício é para procurar o índice dentro da matriz de um dado valor, o número à esquerda, à direita em cima e embaixo. Pude treinar muito, principalmente os loops for e conseguir aprender mais sobre arrays.
