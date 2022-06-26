@@ -27,7 +27,7 @@ Segue abaixo a resolução de algumas situações que fiz usando a *programaçã
 	* 2.4 Laço for each ([código](https://github.com/guiosouza/JAVA_Learning/blob/main/2%20-%20Arrays%20e%20listas/4%20-%20for-each/src/application/Program.java));
 	* 2.5 Listas ([código](https://github.com/guiosouza/JAVA_Learning/edit/main/2%20-%20Arrays%20e%20listas/5%20-%20Lists/src/application/Program.java));
 	* 2.6 Preenchendo uma lista com objetos ([código](https://github.com/guiosouza/JAVA_Learning/tree/main/2%20-%20Arrays%20e%20listas/6%20-%20Lists-ex1/src));
-	* 2.7 
+	* 2.7 Introdução a matrizes ([código](https://github.com/guiosouza/JAVA_Learning/blob/main/2%20-%20Arrays%20e%20listas/7%20-%20matriz-ex2/src/application/Program.java));
 
 ## 1.1 Meu primeiro programa com orientação a objeto
 
@@ -284,4 +284,11 @@ Dá uma olhada se quiser, porque coloquei comentários indicando no [código](ht
 
 Com base na função acima vamos ver se o ID existe para inserirmos a porcentagem de aumento ou se teremos um retorno falando que o ID não existe. No final é usado um `for each` para percorrer a lista e imprimir.
 
-## 2.7 Preenchendo uma lista com objetos
+## 2.7 Introdução a matrizes 
+
+O assunto de matriz ficou mais fácil devido a ter tido o contato anterior com array [aqui](https://github.com/guiosouza/JAVA_Learning/blob/main/2%20-%20Arrays%20e%20listas/7%20-%20matriz-ex2/src/application/Program.java) fiz alguns testes e percebi uma coisa: uma matriz é um array de arrays!
+
+Eu posso percorrer uma matriz usando dois `for` e as variáveis que uso para percorrer posso colocar como condição enquanto ela for menor que o tamanho do array, ou usar a propriedade `matriz.length`. Só um detalhe: ao usar `.length` cuidado com o segundo loop que deve percorrer as colunas do `length` e portanto deve ser por exemplo `matriz[i].length` onde no caso o `i` seria a posição atual da linha.
+
+## 2.8 ntrodução a matrizes 
+
