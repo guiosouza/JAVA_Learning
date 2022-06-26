@@ -24,11 +24,11 @@ public class Program {
 		
 		
 		// PROCURANDO O ÍNDICE E TAMBÉM OS DEMAIS VALORES
-		int x = sc.nextInt();
+		int indice = sc.nextInt();
 		
 		for (int i=0; i<mat.length; i++) {
 			for (int j=0; j<mat[i].length; j++) {
-				if (mat[i][j] == x) {
+				if (mat[i][j] == indice) {
 					System.out.println("Position " + i + "," + j + ":");
 					if (j > 0) {
 						System.out.println("Left: " + mat[i][j-1]);
