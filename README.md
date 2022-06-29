@@ -30,6 +30,9 @@ Segue abaixo a resolução de algumas situações que fiz usando a *programaçã
 	* 2.7 Introdução a matrizes ([código](https://github.com/guiosouza/JAVA_Learning/blob/main/2%20-%20Arrays%20e%20listas/7%20-%20matriz-ex2/src/application/Program.java));
 	* 2.8 Exercitando a busca de valores na matriz ([código](https://github.com/guiosouza/JAVA_Learning/blob/main/2%20-%20Arrays%20e%20listas/8%20-%20matriz-part2/src/application/Program.java));
 
+* _3 ENUMERAÇÃO E COMPOSIÇÃO_
+	* 3.1 Introdução ao ENUMS ([código](https://github.com/guiosouza/JAVA_Learning/tree/main/3%20-%20Enumera%C3%A7%C3%A3o%20e%20composi%C3%A7%C3%A3o/1%20-enums/src));
+
 ## 1.1 Meu primeiro programa com orientação a objeto
 
 Iniciando na programação orientada a objeto, vi a utilidade de métodos que podem ser reaproveitados depois. Exemplo desse [código](https://github.com/guiosouza/JAVA_Learning/tree/main/1%20-%20Construtores%20e%20sobrecarga/1%20-%20triangle-orientacao-objeto/src):
@@ -313,3 +316,18 @@ int[][] mat = new int[n][n];
 O intuito desse script foi de procurar algumas posições de valores nos vetores. Veja como os `if` dentro `for` são usados para procurar valores, vez alterando apenas a linha, vez alterando apenas a coluna.
 
 O exercício é para procurar o índice dentro da matriz de um dado valor, o número à esquerda, à direita em cima e embaixo. Pude treinar muito, principalmente os loops for e conseguir aprender mais sobre arrays.
+
+## 3.1 Introdução ao ENUMS
+
+Os enums são muito utilizados como estágios de uma entidade nas regras de negócio de um projeto orientado a objetos. Nesse trecho verifiquei como posso instanciar uma classe ENUM e também como obter o valor dela usando Strings:
+
+```sh
+// CONVERTENDO UM STRING PARA ENUM - Instanciando a classe ENUM
+// Ele pega a string e procura esse valor na classe OrderStatus
+OrderStatus os1 = OrderStatus.valueOf("DELIVERED");
+OrderStatus os2 = OrderStatus.DELIVERED;
+
+// Comparando para mostrar que valem a mesma coisa
+System.out.println(os1);
+System.out.print(os2);
+````
