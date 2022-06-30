@@ -9,7 +9,7 @@ Segue abaixo a resolução de algumas situações que fiz usando a *programaçã
 
 * _1 CONSTRUTORES E SOBRECARGA_
 	
-	* [1.1 Meu primeiro programa com orientação a objeto](https://github.com/guiosouza/JAVA_Learning#11-meu-primeiro-programa-com-orienta%C3%A7%C3%A3o-a-objeto) ([código](https://github.com/guiosouza/JAVA_Learning/tree/main/1%20-%20Construtores%20e%20sobrecarga/1%20-%20triangle-orientacao-objeto/src));
+	* [1.1 Meu primeiro programa com orientação a objeto](#11-meu-primeiro-programa-com-orienta%C3%A7%C3%A3o-a-objeto) ([código](https://github.com/guiosouza/JAVA_Learning/tree/main/1%20-%20Construtores%20e%20sobrecarga/1%20-%20triangle-orientacao-objeto/src));
 	* 1.2 Usando `String toString()` para saída de dados ([código](https://github.com/guiosouza/JAVA_Learning/tree/main/1%20-%20Construtores%20e%20sobrecarga/2%20-%20rectangle-orientacao-objeto/src));
 	* 1.3 Usando métodos para manipular atributos da classe ([código](https://github.com/guiosouza/JAVA_Learning/tree/main/1%20-%20Construtores%20e%20sobrecarga/3%20-%20product-orientacao-objeto/src));
 	* 1.4 Usando um método dentro de outro ([código](https://github.com/guiosouza/JAVA_Learning/tree/main/1%20-%20Construtores%20e%20sobrecarga/4%20-%20employee-orientacao-objeto/src)); 
