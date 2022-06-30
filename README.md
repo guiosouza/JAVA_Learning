@@ -9,29 +9,29 @@ Segue abaixo a resolução de algumas situações que fiz usando a *programaçã
 
 * _1 CONSTRUTORES E SOBRECARGA_
 	
-	* 1.1 Meu primeiro programa com orientação a objeto ([código](https://github.com/guiosouza/JAVA_Learning/tree/main/1%20-%20Construtores%20e%20sobrecarga/1%20-%20triangle-orientacao-objeto/src));
-	* 1.2 Usando `String toString()` para saída de dados ([código](https://github.com/guiosouza/JAVA_Learning/tree/main/1%20-%20Construtores%20e%20sobrecarga/2%20-%20rectangle-orientacao-objeto/src));
-	* 1.3 Usando métodos para manipular atributos da classe ([código](https://github.com/guiosouza/JAVA_Learning/tree/main/1%20-%20Construtores%20e%20sobrecarga/3%20-%20product-orientacao-objeto/src));
-	* 1.4 Usando um método dentro de outro ([código](https://github.com/guiosouza/JAVA_Learning/tree/main/1%20-%20Construtores%20e%20sobrecarga/4%20-%20employee-orientacao-objeto/src)); 
-	* 1.5 Condicionais dentro de um método ([código](https://github.com/guiosouza/JAVA_Learning/tree/main/1%20-%20Construtores%20e%20sobrecarga/5%20-%20notas-orientacao-objeto/src)); 
-	* 1.6 Métodos que não precisam de instância (static) ([código](https://github.com/guiosouza/JAVA_Learning/tree/main/1%20-%20Construtores%20e%20sobrecarga/6%20-%20static-member-test/src));
-	* 1.7 Passando mais de um parâmetro no método static ([código](https://github.com/guiosouza/JAVA_Learning/tree/main/1%20-%20Construtores%20e%20sobrecarga/7%20-%20static-member-dolar/src)); 
-	* 1.8 Usando construtores e encapsulamento ([código](https://github.com/guiosouza/JAVA_Learning/tree/main/1%20-%20Construtores%20e%20sobrecarga/8%20-%20product-using-constructor/src));
-	* 1.9 Validação do tipo `char` e método dentro de um construtor ([código](https://github.com/guiosouza/JAVA_Learning/tree/main/1%20-%20Construtores%20e%20sobrecarga/9%20-%20ex-1-accountDeposit(sobrecarga)/src));
-	* 1.10 Equação do segundo grau com `switch` e ecapsulamento ([código](https://github.com/guiosouza/JAVA_Learning/tree/main/1%20-%20Construtores%20e%20sobrecarga/10%20-%20ex-2-bhaskara/src));
+	* [1.1 Meu primeiro programa com orientação a objeto](#11-meu-primeiro-programa-com-orienta%C3%A7%C3%A3o-a-objeto) ([código](https://github.com/guiosouza/JAVA_Learning/tree/main/1%20-%20Construtores%20e%20sobrecarga/1%20-%20triangle-orientacao-objeto/src));
+	* [1.2 Usando `String toString()` para saída de dados](#12-usando-string-tostring-para-sa%C3%ADda-de-dados) ([código](https://github.com/guiosouza/JAVA_Learning/tree/main/1%20-%20Construtores%20e%20sobrecarga/2%20-%20rectangle-orientacao-objeto/src));
+	* [1.3 Usando métodos para manipular atributos da classe](#13-usando-m%C3%A9todos-para-manipular-atributos-da-classe) ([código](https://github.com/guiosouza/JAVA_Learning/tree/main/1%20-%20Construtores%20e%20sobrecarga/3%20-%20product-orientacao-objeto/src));
+	* [1.4 Usando um método dentro de outro](#14-usando-um-m%C3%A9todo-dentro-de-outro) ([código](https://github.com/guiosouza/JAVA_Learning/tree/main/1%20-%20Construtores%20e%20sobrecarga/4%20-%20employee-orientacao-objeto/src)); 
+	* [1.5 Condicionais dentro de um método](#15-condicionais-dentro-de-um-m%C3%A9todo) ([código](https://github.com/guiosouza/JAVA_Learning/tree/main/1%20-%20Construtores%20e%20sobrecarga/5%20-%20notas-orientacao-objeto/src)); 
+	* [1.6 Métodos que não precisam de instância](#16-m%C3%A9todos-que-n%C3%A3o-precisam-de-inst%C3%A2ncia-static) (static) ([código](https://github.com/guiosouza/JAVA_Learning/tree/main/1%20-%20Construtores%20e%20sobrecarga/6%20-%20static-member-test/src));
+	* [1.7 Passando mais de um parâmetro no método static](#17-passando-mais-de-um-par%C3%A2metro-no-m%C3%A9todo-static) ([código](https://github.com/guiosouza/JAVA_Learning/tree/main/1%20-%20Construtores%20e%20sobrecarga/7%20-%20static-member-dolar/src)); 
+	* [1.8 Usando construtores e encapsulamento](#18-usando-construtores-e-ecapsulamento) ([código](https://github.com/guiosouza/JAVA_Learning/tree/main/1%20-%20Construtores%20e%20sobrecarga/8%20-%20product-using-constructor/src));
+	* [1.9 Validação do tipo `char` e método dentro de um construtor](#19-valida%C3%A7%C3%A3o-por-char-e-m%C3%A9todo-dentro-de-um-construtor) ([código](https://github.com/guiosouza/JAVA_Learning/tree/main/1%20-%20Construtores%20e%20sobrecarga/9%20-%20ex-1-accountDeposit(sobrecarga)/src));
+	* [1.10 Equação do segundo grau com `switch` e ecapsulamento](#110-equa%C3%A7%C3%A3o-do-segundo-grau-com-switch-e-encapsulamento) ([código](https://github.com/guiosouza/JAVA_Learning/tree/main/1%20-%20Construtores%20e%20sobrecarga/10%20-%20ex-2-bhaskara/src));
 
 * _2 ARRAYS E LISTAS_
-	* 2.1 Aprendendo sobre arrays ([código](https://github.com/guiosouza/JAVA_Learning/tree/main/2%20-%20Arrays%20e%20listas/1%20-%20arrays-test/src/application)); 
-	* 2.2 Preenchendo array com objetos ([código](https://github.com/guiosouza/JAVA_Learning/tree/main/2%20-%20Arrays%20e%20listas/2%20-%20arrays-ex1/src));
-	* 2.3 Criando um array com objetos e mostrando em ordem ([código](https://github.com/guiosouza/JAVA_Learning/tree/main/2%20-%20Arrays%20e%20listas/3%20-%20rent-using-arrays/src));
-	* 2.4 Laço for each ([código](https://github.com/guiosouza/JAVA_Learning/blob/main/2%20-%20Arrays%20e%20listas/4%20-%20for-each/src/application/Program.java));
-	* 2.5 Listas ([código](https://github.com/guiosouza/JAVA_Learning/edit/main/2%20-%20Arrays%20e%20listas/5%20-%20Lists/src/application/Program.java));
-	* 2.6 Preenchendo uma lista com objetos ([código](https://github.com/guiosouza/JAVA_Learning/tree/main/2%20-%20Arrays%20e%20listas/6%20-%20Lists-ex1/src));
-	* 2.7 Introdução a matrizes ([código](https://github.com/guiosouza/JAVA_Learning/blob/main/2%20-%20Arrays%20e%20listas/7%20-%20matriz-ex2/src/application/Program.java));
-	* 2.8 Exercitando a busca de valores na matriz ([código](https://github.com/guiosouza/JAVA_Learning/blob/main/2%20-%20Arrays%20e%20listas/8%20-%20matriz-part2/src/application/Program.java));
+	* [2.1 Aprendendo sobre arrays](#21-aprendendo-sobre-arrays) ([código](https://github.com/guiosouza/JAVA_Learning/tree/main/2%20-%20Arrays%20e%20listas/1%20-%20arrays-test/src/application)); 
+	* [2.2 Preenchendo array com objetos](#22-preenchendo-array-com-objetos) ([código](https://github.com/guiosouza/JAVA_Learning/tree/main/2%20-%20Arrays%20e%20listas/2%20-%20arrays-ex1/src));
+	* [2.3 Criando um array com objetos e mostrando em ordem](#23-preenchendo-array-com-objetos-e-mostrando-em-ordem) ([código](https://github.com/guiosouza/JAVA_Learning/tree/main/2%20-%20Arrays%20e%20listas/3%20-%20rent-using-arrays/src));
+	* [2.4 Laço for each](#24-la%C3%A7o-for-each) ([código](https://github.com/guiosouza/JAVA_Learning/blob/main/2%20-%20Arrays%20e%20listas/4%20-%20for-each/src/application/Program.java));
+	* [2.5 Listas](#25-listas) ([código](https://github.com/guiosouza/JAVA_Learning/edit/main/2%20-%20Arrays%20e%20listas/5%20-%20Lists/src/application/Program.java));
+	* [2.6 Preenchendo uma lista com objetos](#26-preenchendo-uma-lista-com-objetos) ([código](https://github.com/guiosouza/JAVA_Learning/tree/main/2%20-%20Arrays%20e%20listas/6%20-%20Lists-ex1/src));
+	* [2.7 Introdução a matrizes](#27-introdu%C3%A7%C3%A3o-a-matrizes) ([código](https://github.com/guiosouza/JAVA_Learning/blob/main/2%20-%20Arrays%20e%20listas/7%20-%20matriz-ex2/src/application/Program.java));
+	* [2.8 Exercitando a busca de valores na matriz](#28-exercitando-a-busca-de-valores-na-matriz) ([código](https://github.com/guiosouza/JAVA_Learning/blob/main/2%20-%20Arrays%20e%20listas/8%20-%20matriz-part2/src/application/Program.java));
 
 * _3 ENUMERAÇÃO E COMPOSIÇÃO_
-	* 3.1 Introdução ao ENUMS ([código](https://github.com/guiosouza/JAVA_Learning/tree/main/3%20-%20Enumera%C3%A7%C3%A3o%20e%20composi%C3%A7%C3%A3o/1%20-enums/src));
+	* [3.1 Introdução ao ENUMS](#31-introdu%C3%A7%C3%A3o-ao-enums) ([código](https://github.com/guiosouza/JAVA_Learning/tree/main/3%20-%20Enumera%C3%A7%C3%A3o%20e%20composi%C3%A7%C3%A3o/1%20-enums/src));
 
 ## 1.1 Meu primeiro programa com orientação a objeto
 
