@@ -1,5 +1,7 @@
 # APRENDIZADO DE JAVA COM ORIENTAÇÃO A OBJETO
-Repositório dedicado ao aprendizado de JAVA :)
+Criei esse repositório dedicado a minha jornada de aprendizado de JAVA. Aproveite e se quiser use como consulta, porque coloquei observações nos tópicos e comentários nos códigos com muito carinho :)
+
+Bora?
 
 <img
   src ="https://github.com/guiosouza/JAVA_Learning/blob/main/repo%20images/java-logo.jpg"
