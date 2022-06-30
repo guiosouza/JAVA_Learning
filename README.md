@@ -1,6 +1,10 @@
 # APRENDIZADO DE JAVA COM ORIENTAÇÃO A OBJETO
 Repositório dedicado ao aprendizado de JAVA :)
 
+<img
+  src ="https://github.com/guiosouza/JAVA_Learning/blob/main/repo%20images/java-logo.jpg"
+/>
+
 Segue abaixo a resolução de algumas situações que fiz usando a *programação orientada a objetos* em JAVA. Também deixo explicações sobre tópicos importantes não só relacionada a programação orientada a objeto, mas a lógica de programação no geral.
 
 > See you at the end of the code! :)
@@ -14,7 +18,7 @@ Segue abaixo a resolução de algumas situações que fiz usando a *programaçã
 	* [1.3 Usando métodos para manipular atributos da classe](#13-usando-m%C3%A9todos-para-manipular-atributos-da-classe) ([código](https://github.com/guiosouza/JAVA_Learning/tree/main/1%20-%20Construtores%20e%20sobrecarga/3%20-%20product-orientacao-objeto/src));
 	* [1.4 Usando um método dentro de outro](#14-usando-um-m%C3%A9todo-dentro-de-outro) ([código](https://github.com/guiosouza/JAVA_Learning/tree/main/1%20-%20Construtores%20e%20sobrecarga/4%20-%20employee-orientacao-objeto/src)); 
 	* [1.5 Condicionais dentro de um método](#15-condicionais-dentro-de-um-m%C3%A9todo) ([código](https://github.com/guiosouza/JAVA_Learning/tree/main/1%20-%20Construtores%20e%20sobrecarga/5%20-%20notas-orientacao-objeto/src)); 
-	* [1.6 Métodos que não precisam de instância](#16-m%C3%A9todos-que-n%C3%A3o-precisam-de-inst%C3%A2ncia-static) (static) ([código](https://github.com/guiosouza/JAVA_Learning/tree/main/1%20-%20Construtores%20e%20sobrecarga/6%20-%20static-member-test/src));
+	* [1.6 Métodos que não precisam de instância (static)](#16-m%C3%A9todos-que-n%C3%A3o-precisam-de-inst%C3%A2ncia-static)  ([código](https://github.com/guiosouza/JAVA_Learning/tree/main/1%20-%20Construtores%20e%20sobrecarga/6%20-%20static-member-test/src));
 	* [1.7 Passando mais de um parâmetro no método static](#17-passando-mais-de-um-par%C3%A2metro-no-m%C3%A9todo-static) ([código](https://github.com/guiosouza/JAVA_Learning/tree/main/1%20-%20Construtores%20e%20sobrecarga/7%20-%20static-member-dolar/src)); 
 	* [1.8 Usando construtores e encapsulamento](#18-usando-construtores-e-ecapsulamento) ([código](https://github.com/guiosouza/JAVA_Learning/tree/main/1%20-%20Construtores%20e%20sobrecarga/8%20-%20product-using-constructor/src));
 	* [1.9 Validação do tipo `char` e método dentro de um construtor](#19-valida%C3%A7%C3%A3o-por-char-e-m%C3%A9todo-dentro-de-um-construtor) ([código](https://github.com/guiosouza/JAVA_Learning/tree/main/1%20-%20Construtores%20e%20sobrecarga/9%20-%20ex-1-accountDeposit(sobrecarga)/src));
