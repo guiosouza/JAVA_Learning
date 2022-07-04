@@ -38,6 +38,7 @@ Segue abaixo a resolução de algumas situações que fiz usando a *programaçã
 
 * _3 ENUMERAÇÃO E COMPOSIÇÃO_
 	* [3.1 Introdução ao ENUMS](#31-introdu%C3%A7%C3%A3o-ao-enums)
+	* [3.2 Um exercício de composição complexo](https://github.com/guiosouza/JAVA_Learning/blob/main/README.md#32-um-exerc%C3%ADcio-de-composi%C3%A7%C3%A3o-complexo)
 
 ## 1.1 Meu primeiro programa com orientação a objeto
 
@@ -375,3 +376,9 @@ OrderStatus os2 = OrderStatus.DELIVERED;
 System.out.println(os1);
 System.out.print(os2);
 ````
+
+## 3.2 Um exercício de composição complexo
+
+[**Código fonte aqui**](https://github.com/guiosouza/JAVA_Learning/tree/main/3%20-%20Enumera%C3%A7%C3%A3o%20e%20composi%C3%A7%C3%A3o/2%20-usingENUMS-worker-contract/src)
+
+O exercício em resumo, bota em prática a ideia de composição. Aqui vemos classes contidas dentro de outras e uso de listas para compor uma classe.
