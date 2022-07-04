@@ -40,6 +40,9 @@ Segue abaixo a resolução de algumas situações que fiz usando a *programaçã
 	* [3.1 Introdução ao ENUMS](#31-introdu%C3%A7%C3%A3o-ao-enums)
 	* [3.2 Um exercício de composição complexo](https://github.com/guiosouza/JAVA_Learning/blob/main/README.md#32-um-exerc%C3%ADcio-de-composi%C3%A7%C3%A3o-complexo)
 
+* _4 HERANÇA E POLIMORFISMO_
+	* [4.1 Herança, classe abstrata e polimorfismo ao mesmo tempo]
+
 ## 1.1 Meu primeiro programa com orientação a objeto
 
 [**Código fonte aqui**](https://github.com/guiosouza/JAVA_Learning/tree/main/1%20-%20Construtores%20e%20sobrecarga/1%20-%20triangle-orientacao-objeto/src)
