@@ -397,7 +397,7 @@ Em resumo:
 - A classe principal `TaxPayer` não é instanciada por ser abstrata.
 - Mesmo `TaxPayer` não sendo instanciada ela serve de molde para as demais pois possui atributos que serão herdados usando `super()`.
 - Existe um método abstrado na `TaxPayer` chamado `TaxPaid()` que também servira para toda as classes que se basearem nela.
-- Para apicar o método `TaxPaid()` nas subclasses, nas usar o `_@Override_`
-- No momento da instanciação as classes filhas fazem um `upcasting`.
+- Para apicar o método `TaxPaid()` nas subclasses, é necessário usar o `@Override`
+- No momento da instanciação as classes filhas fazem um `upcasting` da classe pai.
 
 E é isso :)
