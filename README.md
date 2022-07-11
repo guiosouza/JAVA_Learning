@@ -40,6 +40,9 @@ Segue abaixo a resolução de algumas situações que fiz usando a *programaçã
 	* [3.1 Introdução ao ENUMS](#31-introdu%C3%A7%C3%A3o-ao-enums)
 	* [3.2 Um exercício de composição complexo](https://github.com/guiosouza/JAVA_Learning/blob/main/README.md#32-um-exerc%C3%ADcio-de-composi%C3%A7%C3%A3o-complexo)
 
+* _4 HERANÇA E POLIMORFISMO_
+	* [4.1 Herança, classe abstrata e polimorfismo ao mesmo tempo](#41-heran%C3%A7a-classe-abstrata-e-polimorfismo-ao-mesmo-tempo)
+
 ## 1.1 Meu primeiro programa com orientação a objeto
 
 [**Código fonte aqui**](https://github.com/guiosouza/JAVA_Learning/tree/main/1%20-%20Construtores%20e%20sobrecarga/1%20-%20triangle-orientacao-objeto/src)
@@ -382,3 +385,19 @@ System.out.print(os2);
 [**Código fonte aqui**](https://github.com/guiosouza/JAVA_Learning/tree/main/3%20-%20Enumera%C3%A7%C3%A3o%20e%20composi%C3%A7%C3%A3o/2%20-usingENUMS-worker-contract/src)
 
 O exercício em resumo, bota em prática a ideia de composição. Aqui vemos classes contidas dentro de outras e uso de listas para compor uma classe.
+
+## 4.1 Herança, classe abstrata e polimorfismo ao mesmo tempo
+
+[**Código fonte aqui**](https://github.com/guiosouza/JAVA_Learning/tree/main/4%20-%20Heran%C3%A7a%20e%20polimorfismo/6%20-exercicio-classe-abstrata2/src)
+
+Esse [módulo](https://github.com/guiosouza/JAVA_Learning/tree/main/4%20-%20Heran%C3%A7a%20e%20polimorfismo) coloquei vários exercícios, mas [esse último](https://github.com/guiosouza/JAVA_Learning/tree/main/4%20-%20Heran%C3%A7a%20e%20polimorfismo/6%20-exercicio-classe-abstrata2/src) resume bem a aplicação do conceito de herança, polimorfismo e classes abstratas ao mesmo tempo.
+
+Em resumo: 
+
+- A classe principal `TaxPayer` não é instanciada por ser abstrata.
+- Mesmo `TaxPayer` não sendo instanciada ela serve de molde para as demais pois possui atributos que serão herdados usando `super()`.
+- Existe um método abstrado na `TaxPayer` chamado `TaxPaid()` que também servira para toda as classes que se basearem nela.
+- Para apicar o método `TaxPaid()` nas subclasses, é necessário usar o `@Override`
+- No momento da instanciação as classes filhas fazem um `upcasting` da classe pai.
+
+E é isso :)
