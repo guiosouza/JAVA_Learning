@@ -43,6 +43,9 @@ Segue abaixo a resolução de algumas situações que fiz usando a *programaçã
 * _4 HERANÇA E POLIMORFISMO_
 	* [4.1 Herança, classe abstrata e polimorfismo ao mesmo tempo](#41-heran%C3%A7a-classe-abstrata-e-polimorfismo-ao-mesmo-tempo)
 
+* _5 TRATAMENTO DE EXCEÇÕES E ERROS_
+	* [5.1 Estrutura `try catch` básica](#51-estrutura-try-catch-b%C3%A1sica)
+
 ## 1.1 Meu primeiro programa com orientação a objeto
 
 [**Código fonte aqui**](https://github.com/guiosouza/JAVA_Learning/tree/main/1%20-%20Construtores%20e%20sobrecarga/1%20-%20triangle-orientacao-objeto/src)
@@ -401,3 +404,13 @@ Em resumo:
 - No momento da instanciação as classes filhas fazem um `upcasting` da classe pai.
 
 E é isso :)
+
+## 5.1 Estrutura try catch básica
+
+[**Código fonte aqui**](https://github.com/guiosouza/JAVA_Learning/blob/main/5%20-%20Tratamento%20de%20erros%20e%20exce%C3%A7%C3%B5es/1%20-%20try-catch-estrutura/src/application/Program.java)
+
+Fiz um pequeno exemplo de como fazer o JAVA identificar erros e não finalizar o programa, mostrando apenas uma mensagem. 
+
+Peço para o usuário digitar strings separadas por espaço e depois passar uma posição do índice para o programa procurar no array. Caso essa posição não exista, tratei o erro com: `...catch (ArrayIndexOutOfBoundsException e)...`
+
+Outro erro que tratei também foi com o `...catch (InputMismatchException e)...`. Esse trata erros de entrada de dados erradas. Por exemplo: se pedir um número inteiro e o usuário digitar um caractere ou string.
