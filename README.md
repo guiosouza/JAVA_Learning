@@ -419,8 +419,53 @@ Peço para o usuário digitar strings separadas por espaço e depois passar uma 
 Outro erro que tratei também foi com o `...catch (InputMismatchException e)...`. Esse trata erros de entrada de dados erradas. Por exemplo: se pedir um número inteiro e o usuário digitar um caractere ou string.
 
 ## 6.1 Usando o `Comparator`
-[**Código fonte aqui**](https://github.com/guiosouza/JAVA_Learning/blob/main/5%20-%20Tratamento%20de%20erros%20e%20exce%C3%A7%C3%B5es/1%20-%20try-catch-estrutura/src/application/Program.java)
+[**Código fonte aqui**](https://github.com/guiosouza/JAVA_Learning/tree/main/6%20-%20Programa%C3%A7%C3%A3o%20funcional%20e%20express%C3%B5es%20Lambda/1%20-%20Comparator/src)
 
 Para fazer comparações de objetos temos a opção de usar a interface `Comparable`. Acontece que se futuramente quisermos fazer manutenção da classe, como por exemplo em casos onde mudamos a regra de comparação, não fica muito prático fazer manutenção em cada classe. Para isso temos a interface `Comparator`. Vamos usar ela no programa principal de algumas maneiras:
 
 
+1. Uma classe separada implementa o `Comparator` depois instanciamos ela no programa principal:
+```sh
+list.sort(new MyComparator());
+
+for (Product p : list) {
+	System.out.println(p);
+} 
+```
+
+2. Instanciamos o `Comparator` no programa principal e usamos uma função anônima para implementar ele:
+```sh
+Comparator<Product> comp = new Comparator<Product>() {
+
+	@Override
+	public int compare(Product p1, Product p2) {
+		// o que que é comparar um produto com outro?
+		// comparando por nomes igualando os tamanhos dos caracteres
+		return p1.getName().toUpperCase().compareTo(p2.getName().toUpperCase());
+	}	
+};
+
+for (Product p : list) {
+	System.out.println(p);
+} 
+```
+
+3. Instanciamos o `Comparator` porém com expressão lambda:
+```sh
+Comparator<Product> compare = (p1, p2) -> {
+	return p1.getName().toUpperCase().compareTo(p2.getName().toUpperCase());
+};
+
+for (Product p : list) {
+	System.out.println(p);
+} 
+```
+
+4. Passarmos a expressão lambda no argumento do list.sort, pois a `Comparator` vai ser utilizado automaticamente:
+```sh
+list.sort((p1, p2) -> p1.getName().toUpperCase().compareTo(p2.getName().toUpperCase()));
+
+for (Product p : list) {
+	System.out.println(p);
+} 
+```
