@@ -445,6 +445,8 @@ Comparator<Product> comp = new Comparator<Product>() {
 	}	
 };
 
+list.sort(comp)
+
 for (Product p : list) {
 	System.out.println(p);
 } 
@@ -452,9 +454,11 @@ for (Product p : list) {
 
 3. Instanciamos o `Comparator` porém com expressão lambda:
 ```sh
-Comparator<Product> compare = (p1, p2) -> {
+Comparator<Product> comp = (p1, p2) -> {
 	return p1.getName().toUpperCase().compareTo(p2.getName().toUpperCase());
 };
+
+list.sort(comp)
 
 for (Product p : list) {
 	System.out.println(p);
@@ -464,6 +468,8 @@ for (Product p : list) {
 4. Passarmos a expressão lambda no argumento do list.sort, pois a `Comparator` vai ser utilizado automaticamente:
 ```sh
 list.sort((p1, p2) -> p1.getName().toUpperCase().compareTo(p2.getName().toUpperCase()));
+
+list.sort(comp)
 
 for (Product p : list) {
 	System.out.println(p);
